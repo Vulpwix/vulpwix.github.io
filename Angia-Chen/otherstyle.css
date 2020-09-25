@@ -1,0 +1,52 @@
+#jasmineflower{
+ max-width: 25%;
+ height: auto;}
+
+#lycheefruit{
+   max-width: 19%;
+    height: auto;}
+#ginger{
+  max-width: 20%;
+  height: auto}
+
+#whitedragon{
+  max-width: 25%;
+  height: auto;}
+
+  body {
+    background-color: #F5DEB3;
+    /* Change the font of the website to Arial */
+    font-family: arial;}
+
+p.cite{
+font-size: 10px;}
+
+div.bottomish{
+  position: fixed;
+  top: 80%;
+  left: 55%;
+  right:5%;}
+
+div.main{
+  position: fixed;
+  left:3%;
+  right:30%;}
+
+#button {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: 95px;
+  border: 2px solid gray;
+  background: #ffe;
+  border-radius: 5px;
+  font-size: 11px;
+  text-align: center;}
+
+#abutton {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;}

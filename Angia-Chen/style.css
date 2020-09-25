@@ -1,0 +1,99 @@
+
+.welcome{
+  position: fixed;
+  left:0;
+  top:0;
+  height:100px;
+  width: auto;}
+
+#iroh{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:20px;
+ max-width: 25%;
+ height: auto;
+}
+
+div.myname{
+  font-size: 7px;
+  position: absolute;
+  left: 63%;
+  top: 10%;
+  color: #b4998b;
+}
+
+body {
+  background-color: #F5DEB3;
+  /* Change the font of the website to Arial */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+h1 {
+  font-family: cursive;
+}
+
+table {
+  padding-top: 15px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 550px;}
+
+  a:link {
+    color: green;}
+
+  a:visited {
+    color: brown;}
+
+  a:hover {
+    color: white;}
+
+th{ font-size: 13px;}
+
+td {font-size: 10px;
+}
+
+ul {
+list-style-type: none;
+font-size: 10px;
+position:absolute;
+top:0px;
+right:10px;
+text-align: right;
+}
+
+
+table.ordertable{
+  table-layout: fixed;
+  width: 150px;
+  text-align: left;
+
+}
+
+input {
+  width:60px;
+}
+
+.orderhere{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#central{
+}
+
+#forbutton{
+  padding-top: 10px;
+   text-align: center;
+}
+#demo{
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}

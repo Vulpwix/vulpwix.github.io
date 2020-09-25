@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <a href='https://avatar.fandom.com/wiki/Jasmine_Dragon' >
+      <img src="images/jdlogo.png" title ='art: NoNamedSuperhero on DeviantArt' class= 'welcome'>
+    </a>
+
+    <title>Jasmine Dragon teashop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+
+  <body>
+
+    <h1>Welcome to the Jasmine Dragon teashop!</h1>
+<div class="myname">
+webpage created by Angia Chen for CS1301, Fall 2020
+</div>
+      <img src="images/iroh.png" title ='art: society6.com/greenbunny' id= 'iroh'>
+
+      <i>Come in and have a nice, hot cup of tea and a chat with Uncle Iroh!</i>
+
+    <div id = 'central'>
+        <table>
+          <TR>
+            <th>tea name</th>
+            <th>flavor</th>
+            <th>benefits</th>
+            <th>caffeine</th>
+            <th>price</th>
+          </TR>
+          <TR>
+            <TD><a href="jasmine.html">jasmine</a></TD>
+            <TD>subtly sweet and highly fragrant</TD>
+            <TD>a soothing brew</TD>
+            <TD>40 mg/cup</TD>
+            <TD>$2.00/cup</TD>
+          </TR>
+          <TR>
+            <TD><a href="lychee.html">lychee</a></TD>
+            <TD>sweet and full-bodied</TD>
+            <TD>energy booosting</TD>
+            <TD>50 mg/cup</TD>
+            <TD>$1.00/cup</TD>
+          </TR>
+          <TR>
+            <TD><a href="green.html">green</a></TD>
+            <TD>earthy</TD>
+            <TD>calming, improves focus</TD>
+            <TD>40 mg/cup</TD>
+            <TD>$2.00/cup</TD>
+          <TR>
+            <TD><a href="ginger.html">ginger</a></TD>
+            <TD>warming and spicy</TD>
+            <TD>many medicinal properties</TD>
+            <TD>none</TD>
+            <TD>$1.00/cup</TD>
+          </TR>
+          <TR>
+            <TD><a href="whitedragon.html">white dragon</a></TD>
+            <TD>so delicious, it's heartbreaking</TD>
+            <TD>rehydrates and revives</TD>
+            <TD>35 mg/cup</TD>
+            <TD>$40.00/cup</TD>
+          </TR>
+
+        </table>
+      </div>
+
+<div>
+    <ul>
+      <li>Monday : 9am-11pm</li>
+      <li>Tuesday: 9am-11pm</li>
+      <li>Wednesday: 9am-11pm</li>
+      <li>Thursday: 9am-11pm</li>
+      <li>Friday: 9am-5pm</li>
+      <li>Saturday: 9am-11pm</li>
+      <li>Sunday: 9am-11pm</li>
+    </ul>
+
+</div>
+
+<hr>
+<div class="orderhere">
+  Place your order here:
+</div>
+
+<div>
+    <FORM>
+    <TABLE class='ordertable'>
+      <TR>
+        <TD></TD> <TD>cups</TD>
+      </TR>
+      <TR>
+      <TR>
+        <TD>jasmine</TD> <TD><INPUT value='0' TYPE="number" id='jas'></TD>
+      </TR>
+      <TR>
+        <TD>lychee</TD><TD><INPUT value='0' TYPE="number" id='lyc'></TD>
+      </TR>
+      <TR>
+        <TD>green</TD> <TD><Input value='0' Type='number' id='gre'></TD>
+      <TR>
+        <TD>ginger</TD> <TD><Input value='0' Type='number' id='gin'></TD>
+      </TR>
+      <TR>
+        <TD>white dragon</TD> <TD><Input value='0' Type='number' id='whi'></TD>
+      </TR>
+    </TABLE>
+
+    <div id='forbutton'>
+      <button type='button' onclick="calculate()">calculate total</button>
+    </div>
+
+    </FORM>
+
+</div>
+
+
+<script type= 'text/javascript'>
+
+    function calculate() {
+      var jas = document.getElementById('jas').value;
+      var lyc = document.getElementById('lyc').value;
+      var gre = document.getElementById('gre').value;
+      var gin = document.getElementById('gin').value;
+      var whi = document.getElementById('whi').value;
+      var total = jas*2 + lyc*1 + gre*2 + gin*1 + whi*40
+
+      alert("Your total is $"+total.toString()+ ".")
+      if (total > 2) {
+        document.getElementById("demo").innerHTML ='"I think you are very wise to choose happiness and love. Thank you for your business!"';
+      }
+      else {
+        document.getElementById("demo").innerHTML ='"You do not seem to have ordered anything. I suggest you try the jasmine!"';
+      }
+    }
+
+  </script>
+  <p id="demo"></p>
+  </body>
+
+
+
+</html>
